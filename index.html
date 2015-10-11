@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/customCSS.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,17 +19,25 @@
     <![endif]-->
   </head>
   <body>
-    <div class ="container">
-      <h1>Guessing Game: </h1>
-      <p>Guess the number...</p>
-      <div class="input-group">
-        <input type="text" class="form-control" placeholder="Enter a number">
-      </div>
+    <div class ="container" >
+      <div class="center1">
+      <h1>guessing game</h1>
+      <p>Guess a number between 0 and 100...</p><br />
+      
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Enter a number">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Submit!</button>
+      </span>
+    </div><!-- /input-group -->
+    <br>
+        
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-default">Submit your guess</button>
         <button type="button" class="btn btn-default">Give me a hint</button>
         <button type="button" class="btn btn-default">Play again</button>
-      </div>
+     
+    </div>
+    </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
