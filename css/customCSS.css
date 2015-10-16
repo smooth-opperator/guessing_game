@@ -9,12 +9,52 @@ body{
 }
 
 h1 {
-	color: #CC7A00;
+	color: rgba(150,150,150,1);
+	text-align: center;
+}
+
+h2 {
+	color: #000080;
+	text-align: center;
+	font-size: large;
+}
+
+h3 {
+	color: #7FFF00;
+	font-size: xx-large;
+}
+
+
+.wrapper {
+	margin: auto;
+	margin-top: 70px;
+	width: 70%;
+	height: 70%;
+	border: 3px solid rgba(150,150,150,1);
+	background-color: rgba(255,255,255,0.2);
+	background-image: url();
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	opacity: 0.8;	
+	
+}
+
+.remaining {
+	width: 70%;
 }
 
 .center1 {
     margin: auto;
-    width: 30%;
-    padding: 20px;
+    width: 70%;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.container1 {
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	width: 50%;
 }
 
